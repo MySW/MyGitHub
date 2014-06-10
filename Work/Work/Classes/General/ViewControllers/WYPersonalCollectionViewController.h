@@ -1,5 +1,5 @@
 //
-//  WYAppDelegate.h
+//  WYPersonalCollectionViewController.h
 //  Work
 //
 //  Created by 钱钱 on 14-6-10.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WYAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface WYPersonalCollectionViewController : UIViewController
 
 @end

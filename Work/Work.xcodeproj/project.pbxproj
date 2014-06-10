@@ -12,13 +12,37 @@
 		C2333A7E1946FB13000465F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2333A7D1946FB13000465F3 /* UIKit.framework */; };
 		C2333A841946FB13000465F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2333A821946FB13000465F3 /* InfoPlist.strings */; };
 		C2333A861946FB13000465F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2333A851946FB13000465F3 /* main.m */; };
-		C2333A8A1946FB13000465F3 /* WYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2333A891946FB13000465F3 /* WYAppDelegate.m */; };
 		C2333A8C1946FB13000465F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2333A8B1946FB13000465F3 /* Images.xcassets */; };
 		C2333A931946FB13000465F3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2333A921946FB13000465F3 /* XCTest.framework */; };
 		C2333A941946FB13000465F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2333A791946FB13000465F3 /* Foundation.framework */; };
 		C2333A951946FB13000465F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2333A7D1946FB13000465F3 /* UIKit.framework */; };
 		C2333A9D1946FB13000465F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2333A9B1946FB13000465F3 /* InfoPlist.strings */; };
 		C2333A9F1946FB13000465F3 /* WorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2333A9E1946FB13000465F3 /* WorkTests.m */; };
+		C2333AC11947183D000465F3 /* WYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2333AAB1947183D000465F3 /* WYAppDelegate.m */; };
+		C2333AC21947183D000465F3 /* 320x49.png in Resources */ = {isa = PBXBuildFile; fileRef = C2333AB61947183D000465F3 /* 320x49.png */; };
+		C2333AC31947183D000465F3 /* icon_4_n.png in Resources */ = {isa = PBXBuildFile; fileRef = C2333AB71947183D000465F3 /* icon_4_n.png */; };
+		C2333AC41947183D000465F3 /* icon_home.png in Resources */ = {isa = PBXBuildFile; fileRef = C2333AB81947183D000465F3 /* icon_home.png */; };
+		C2333AC51947183D000465F3 /* icon_meassage.png in Resources */ = {isa = PBXBuildFile; fileRef = C2333AB91947183D000465F3 /* icon_meassage.png */; };
+		C2333AC61947183D000465F3 /* icon_more.png in Resources */ = {isa = PBXBuildFile; fileRef = C2333ABA1947183D000465F3 /* icon_more.png */; };
+		C2333AC71947183D000465F3 /* icon_selfinfo.png in Resources */ = {isa = PBXBuildFile; fileRef = C2333ABB1947183D000465F3 /* icon_selfinfo.png */; };
+		C2333ACA194719CD000465F3 /* WYPersonalCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2333AC9194719CD000465F3 /* WYPersonalCollectionViewController.m */; };
+		C2333AD319471A87000465F3 /* WYDialBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2333AD219471A87000465F3 /* WYDialBoardViewController.m */; };
+		C2333AD8194728CA000465F3 /* icon_board.png in Resources */ = {isa = PBXBuildFile; fileRef = C2333AD7194728CA000465F3 /* icon_board.png */; };
+		C2333ADB19472C0B000465F3 /* WYAddressBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2333ADA19472C0B000465F3 /* WYAddressBookViewController.m */; };
+		C2333ADE19472C6B000465F3 /* WYRecentCallsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2333ADD19472C6B000465F3 /* WYRecentCallsViewController.m */; };
+		C2333AEB19473D0F000465F3 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2333ADF19473D0F000465F3 /* 6.jpg */; };
+		C2333AEC19473D0F000465F3 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2333AE019473D0F000465F3 /* 4.jpg */; };
+		C2333AED19473D0F000465F3 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2333AE119473D0F000465F3 /* 9.jpg */; };
+		C2333AEE19473D0F000465F3 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2333AE219473D0F000465F3 /* 7.jpg */; };
+		C2333AEF19473D0F000465F3 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2333AE319473D0F000465F3 /* 1.jpg */; };
+		C2333AF019473D0F000465F3 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2333AE419473D0F000465F3 /* 11.jpg */; };
+		C2333AF119473D0F000465F3 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2333AE519473D0F000465F3 /* 5.jpg */; };
+		C2333AF219473D0F000465F3 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2333AE619473D0F000465F3 /* 3.jpg */; };
+		C2333AF319473D0F000465F3 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2333AE719473D0F000465F3 /* 2.jpg */; };
+		C2333AF419473D0F000465F3 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2333AE819473D0F000465F3 /* 8.jpg */; };
+		C2333AF519473D0F000465F3 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2333AE919473D0F000465F3 /* 0.jpg */; };
+		C2333AF619473D0F000465F3 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2333AEA19473D0F000465F3 /* 10.jpg */; };
+		C2333AF9194748E2000465F3 /* WYDiaNotCalls.m in Sources */ = {isa = PBXBuildFile; fileRef = C2333AF8194748E2000465F3 /* WYDiaNotCalls.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,14 +64,45 @@
 		C2333A831946FB13000465F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C2333A851946FB13000465F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C2333A871946FB13000465F3 /* Work-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Work-Prefix.pch"; sourceTree = "<group>"; };
-		C2333A881946FB13000465F3 /* WYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAppDelegate.h; sourceTree = "<group>"; };
-		C2333A891946FB13000465F3 /* WYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAppDelegate.m; sourceTree = "<group>"; };
 		C2333A8B1946FB13000465F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C2333A911946FB13000465F3 /* WorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2333A921946FB13000465F3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C2333A9A1946FB13000465F3 /* WorkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WorkTests-Info.plist"; sourceTree = "<group>"; };
 		C2333A9C1946FB13000465F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C2333A9E1946FB13000465F3 /* WorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkTests.m; sourceTree = "<group>"; };
+		C2333AAA1947183D000465F3 /* WYAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAppDelegate.h; sourceTree = "<group>"; };
+		C2333AAB1947183D000465F3 /* WYAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAppDelegate.m; sourceTree = "<group>"; };
+		C2333AB61947183D000465F3 /* 320x49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 320x49.png; sourceTree = "<group>"; };
+		C2333AB71947183D000465F3 /* icon_4_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_4_n.png; sourceTree = "<group>"; };
+		C2333AB81947183D000465F3 /* icon_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_home.png; sourceTree = "<group>"; };
+		C2333AB91947183D000465F3 /* icon_meassage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_meassage.png; sourceTree = "<group>"; };
+		C2333ABA1947183D000465F3 /* icon_more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_more.png; sourceTree = "<group>"; };
+		C2333ABB1947183D000465F3 /* icon_selfinfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_selfinfo.png; sourceTree = "<group>"; };
+		C2333AC8194719CD000465F3 /* WYPersonalCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WYPersonalCollectionViewController.h; path = ../../General/ViewControllers/WYPersonalCollectionViewController.h; sourceTree = "<group>"; };
+		C2333AC9194719CD000465F3 /* WYPersonalCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WYPersonalCollectionViewController.m; path = ../../General/ViewControllers/WYPersonalCollectionViewController.m; sourceTree = "<group>"; };
+		C2333AD119471A87000465F3 /* WYDialBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WYDialBoardViewController.h; path = ../../General/ViewControllers/WYDialBoardViewController.h; sourceTree = "<group>"; };
+		C2333AD219471A87000465F3 /* WYDialBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WYDialBoardViewController.m; path = ../../General/ViewControllers/WYDialBoardViewController.m; sourceTree = "<group>"; };
+		C2333AD419472249000465F3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		C2333AD519472249000465F3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		C2333AD7194728CA000465F3 /* icon_board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_board.png; sourceTree = "<group>"; };
+		C2333AD919472C0B000465F3 /* WYAddressBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WYAddressBookViewController.h; path = ../../General/ViewControllers/WYAddressBookViewController.h; sourceTree = "<group>"; };
+		C2333ADA19472C0B000465F3 /* WYAddressBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WYAddressBookViewController.m; path = ../../General/ViewControllers/WYAddressBookViewController.m; sourceTree = "<group>"; };
+		C2333ADC19472C6B000465F3 /* WYRecentCallsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WYRecentCallsViewController.h; path = ../../General/ViewControllers/WYRecentCallsViewController.h; sourceTree = "<group>"; };
+		C2333ADD19472C6B000465F3 /* WYRecentCallsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WYRecentCallsViewController.m; path = ../../General/ViewControllers/WYRecentCallsViewController.m; sourceTree = "<group>"; };
+		C2333ADF19473D0F000465F3 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		C2333AE019473D0F000465F3 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		C2333AE119473D0F000465F3 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		C2333AE219473D0F000465F3 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		C2333AE319473D0F000465F3 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		C2333AE419473D0F000465F3 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		C2333AE519473D0F000465F3 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		C2333AE619473D0F000465F3 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		C2333AE719473D0F000465F3 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		C2333AE819473D0F000465F3 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		C2333AE919473D0F000465F3 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		C2333AEA19473D0F000465F3 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		C2333AF7194748E2000465F3 /* WYDiaNotCalls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYDiaNotCalls.h; sourceTree = "<group>"; };
+		C2333AF8194748E2000465F3 /* WYDiaNotCalls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYDiaNotCalls.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +162,7 @@
 		C2333A7F1946FB13000465F3 /* Work */ = {
 			isa = PBXGroup;
 			children = (
-				C2333A881946FB13000465F3 /* WYAppDelegate.h */,
-				C2333A891946FB13000465F3 /* WYAppDelegate.m */,
+				C2333AA81947183D000465F3 /* Classes */,
 				C2333A8B1946FB13000465F3 /* Images.xcassets */,
 				C2333A801946FB13000465F3 /* Supporting Files */,
 			);
@@ -142,6 +196,172 @@
 				C2333A9B1946FB13000465F3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2333AA81947183D000465F3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C2333AA91947183D000465F3 /* AppDelegate */,
+				C2333ABC1947183D000465F3 /* Scenes */,
+				C2333AAC1947183D000465F3 /* General */,
+				C2333AB11947183D000465F3 /* Helpers */,
+				C2333AB21947183D000465F3 /* Macro */,
+				C2333AB31947183D000465F3 /* Models */,
+				C2333AB41947183D000465F3 /* Resources */,
+				C2333AC01947183D000465F3 /* Vendors */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C2333AA91947183D000465F3 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C2333AAA1947183D000465F3 /* WYAppDelegate.h */,
+				C2333AAB1947183D000465F3 /* WYAppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C2333AAC1947183D000465F3 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				C2333AAF1947183D000465F3 /* ViewControllers */,
+				C2333AB01947183D000465F3 /* Views */,
+				C2333AAD1947183D000465F3 /* Categrories */,
+				C2333AAE1947183D000465F3 /* Classes */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		C2333AAD1947183D000465F3 /* Categrories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categrories;
+			sourceTree = "<group>";
+		};
+		C2333AAE1947183D000465F3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C2333AAF1947183D000465F3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C2333AB01947183D000465F3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C2333AB11947183D000465F3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C2333AB21947183D000465F3 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		C2333AB31947183D000465F3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C2333AB41947183D000465F3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C2333AB51947183D000465F3 /* images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C2333AB51947183D000465F3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C2333ADF19473D0F000465F3 /* 6.jpg */,
+				C2333AE019473D0F000465F3 /* 4.jpg */,
+				C2333AE119473D0F000465F3 /* 9.jpg */,
+				C2333AE219473D0F000465F3 /* 7.jpg */,
+				C2333AE319473D0F000465F3 /* 1.jpg */,
+				C2333AE419473D0F000465F3 /* 11.jpg */,
+				C2333AE519473D0F000465F3 /* 5.jpg */,
+				C2333AE619473D0F000465F3 /* 3.jpg */,
+				C2333AE719473D0F000465F3 /* 2.jpg */,
+				C2333AE819473D0F000465F3 /* 8.jpg */,
+				C2333AE919473D0F000465F3 /* 0.jpg */,
+				C2333AEA19473D0F000465F3 /* 10.jpg */,
+				C2333AD7194728CA000465F3 /* icon_board.png */,
+				C2333AB61947183D000465F3 /* 320x49.png */,
+				C2333AB71947183D000465F3 /* icon_4_n.png */,
+				C2333AB81947183D000465F3 /* icon_home.png */,
+				C2333AB91947183D000465F3 /* icon_meassage.png */,
+				C2333ABA1947183D000465F3 /* icon_more.png */,
+				C2333ABB1947183D000465F3 /* icon_selfinfo.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		C2333ABC1947183D000465F3 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				C2333ABD1947183D000465F3 /* Root */,
+				C2333ABE1947183D000465F3 /* ViewControllers */,
+				C2333ABF1947183D000465F3 /* Views */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		C2333ABD1947183D000465F3 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		C2333ABE1947183D000465F3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C2333AC8194719CD000465F3 /* WYPersonalCollectionViewController.h */,
+				C2333AC9194719CD000465F3 /* WYPersonalCollectionViewController.m */,
+				C2333ADC19472C6B000465F3 /* WYRecentCallsViewController.h */,
+				C2333ADD19472C6B000465F3 /* WYRecentCallsViewController.m */,
+				C2333AD919472C0B000465F3 /* WYAddressBookViewController.h */,
+				C2333ADA19472C0B000465F3 /* WYAddressBookViewController.m */,
+				C2333AD119471A87000465F3 /* WYDialBoardViewController.h */,
+				C2333AD219471A87000465F3 /* WYDialBoardViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C2333ABF1947183D000465F3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C2333AF7194748E2000465F3 /* WYDiaNotCalls.h */,
+				C2333AF8194748E2000465F3 /* WYDiaNotCalls.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C2333AC01947183D000465F3 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +423,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hans",
 			);
 			mainGroup = C2333A6D1946FB13000465F3;
 			productRefGroup = C2333A771946FB13000465F3 /* Products */;
@@ -220,8 +441,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2333AEC19473D0F000465F3 /* 4.jpg in Resources */,
+				C2333AC31947183D000465F3 /* icon_4_n.png in Resources */,
+				C2333AEF19473D0F000465F3 /* 1.jpg in Resources */,
 				C2333A841946FB13000465F3 /* InfoPlist.strings in Resources */,
+				C2333AD8194728CA000465F3 /* icon_board.png in Resources */,
+				C2333AF019473D0F000465F3 /* 11.jpg in Resources */,
+				C2333AC71947183D000465F3 /* icon_selfinfo.png in Resources */,
+				C2333AF219473D0F000465F3 /* 3.jpg in Resources */,
+				C2333AF419473D0F000465F3 /* 8.jpg in Resources */,
+				C2333AF519473D0F000465F3 /* 0.jpg in Resources */,
+				C2333AEE19473D0F000465F3 /* 7.jpg in Resources */,
+				C2333AF319473D0F000465F3 /* 2.jpg in Resources */,
+				C2333AF619473D0F000465F3 /* 10.jpg in Resources */,
+				C2333AC61947183D000465F3 /* icon_more.png in Resources */,
+				C2333AC41947183D000465F3 /* icon_home.png in Resources */,
+				C2333AF119473D0F000465F3 /* 5.jpg in Resources */,
 				C2333A8C1946FB13000465F3 /* Images.xcassets in Resources */,
+				C2333AEB19473D0F000465F3 /* 6.jpg in Resources */,
+				C2333AC51947183D000465F3 /* icon_meassage.png in Resources */,
+				C2333AED19473D0F000465F3 /* 9.jpg in Resources */,
+				C2333AC21947183D000465F3 /* 320x49.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +480,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2333A8A1946FB13000465F3 /* WYAppDelegate.m in Sources */,
+				C2333ACA194719CD000465F3 /* WYPersonalCollectionViewController.m in Sources */,
+				C2333AF9194748E2000465F3 /* WYDiaNotCalls.m in Sources */,
+				C2333AC11947183D000465F3 /* WYAppDelegate.m in Sources */,
 				C2333A861946FB13000465F3 /* main.m in Sources */,
+				C2333AD319471A87000465F3 /* WYDialBoardViewController.m in Sources */,
+				C2333ADB19472C0B000465F3 /* WYAddressBookViewController.m in Sources */,
+				C2333ADE19472C6B000465F3 /* WYRecentCallsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +513,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C2333A831946FB13000465F3 /* en */,
+				C2333AD419472249000465F3 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -276,6 +522,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C2333A9C1946FB13000465F3 /* en */,
+				C2333AD519472249000465F3 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -362,6 +609,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Work/Work-Prefix.pch";
 				INFOPLIST_FILE = "Work/Work-Info.plist";
@@ -375,6 +623,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Work/Work-Prefix.pch";
 				INFOPLIST_FILE = "Work/Work-Info.plist";
@@ -444,6 +693,7 @@
 				C2333AA41946FB13000465F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2333AA51946FB13000465F3 /* Build configuration list for PBXNativeTarget "WorkTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +702,7 @@
 				C2333AA71946FB13000465F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

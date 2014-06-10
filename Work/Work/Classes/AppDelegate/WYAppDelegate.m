@@ -7,6 +7,10 @@
 //
 
 #import "WYAppDelegate.h"
+#import "WYPersonalCollectionViewController.h"
+#import "WYRecentCallsViewController.h"
+#import "WYAddressBookViewController.h"
+#import "WYDialBoardViewController.h"
 
 @implementation WYAppDelegate
 
@@ -16,6 +20,42 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    // 创建视图
+    
+    WYPersonalCollectionViewController *personVC = [WYPersonalCollectionViewController new];
+    
+    UINavigationController *personNC = [[[UINavigationController alloc] initWithRootViewController:personVC] autorelease];
+    
+    WYRecentCallsViewController *recentCallsVC = [WYRecentCallsViewController new];
+    
+    UINavigationController *recentCallsNC = [[[UINavigationController alloc] initWithRootViewController:recentCallsVC] autorelease];
+    
+    WYAddressBookViewController *addressBookVC = [WYAddressBookViewController new];
+    
+    UINavigationController *addressBookNC =[[[UINavigationController alloc] initWithRootViewController:addressBookVC] autorelease];
+    
+    WYDialBoardViewController *dialBoardVC = [WYDialBoardViewController new];
+    
+    
+    // 创建标签
+    
+    UITabBarController *rootTBC = [[UITabBarController alloc] init];
+    
+    rootTBC.delegate = self;
+    
+    rootTBC.viewControllers = @[personNC, recentCallsNC, addressBookNC, dialBoardVC];
+    
+    [personNC release];
+    [recentCallsVC release];
+    [addressBookVC release];
+    [dialBoardVC release];
+    
+    rootTBC.tabBar.backgroundColor = [UIColor redColor];
+    rootTBC.tabBar.tintColor = [UIColor blackColor];
+    
+    self.window.rootViewController = rootTBC;
+    
     return YES;
 }
 

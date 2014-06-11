@@ -43,6 +43,8 @@
 		C2333AF519473D0F000465F3 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2333AE919473D0F000465F3 /* 0.jpg */; };
 		C2333AF619473D0F000465F3 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2333AEA19473D0F000465F3 /* 10.jpg */; };
 		C2333AF9194748E2000465F3 /* WYDiaNotCalls.m in Sources */ = {isa = PBXBuildFile; fileRef = C2333AF8194748E2000465F3 /* WYDiaNotCalls.m */; };
+		C2B8627F19488C2F00586AEE /* WYAddContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B8627E19488C2F00586AEE /* WYAddContentViewController.m */; };
+		C2B8628219488C5D00586AEE /* WYContent.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B8628119488C5D00586AEE /* WYContent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +105,12 @@
 		C2333AEA19473D0F000465F3 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
 		C2333AF7194748E2000465F3 /* WYDiaNotCalls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYDiaNotCalls.h; sourceTree = "<group>"; };
 		C2333AF8194748E2000465F3 /* WYDiaNotCalls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYDiaNotCalls.m; sourceTree = "<group>"; };
+		C2B8627B1948817200586AEE /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		C2B8627C1948817200586AEE /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		C2B8627D19488C2F00586AEE /* WYAddContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAddContentViewController.h; sourceTree = "<group>"; };
+		C2B8627E19488C2F00586AEE /* WYAddContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAddContentViewController.m; sourceTree = "<group>"; };
+		C2B8628019488C5D00586AEE /* WYContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYContent.h; sourceTree = "<group>"; };
+		C2B8628119488C5D00586AEE /* WYContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYContent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -278,6 +286,8 @@
 		C2333AB31947183D000465F3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C2B8628019488C5D00586AEE /* WYContent.h */,
+				C2B8628119488C5D00586AEE /* WYContent.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -344,6 +354,8 @@
 				C2333ADA19472C0B000465F3 /* WYAddressBookViewController.m */,
 				C2333AD119471A87000465F3 /* WYDialBoardViewController.h */,
 				C2333AD219471A87000465F3 /* WYDialBoardViewController.m */,
+				C2B8627D19488C2F00586AEE /* WYAddContentViewController.h */,
+				C2B8627E19488C2F00586AEE /* WYAddContentViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -409,7 +421,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = WY;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = guoming;
 				TargetAttributes = {
 					C2333A901946FB13000465F3 = {
@@ -424,6 +436,7 @@
 			knownRegions = (
 				en,
 				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = C2333A6D1946FB13000465F3;
 			productRefGroup = C2333A771946FB13000465F3 /* Products */;
@@ -481,7 +494,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2333ACA194719CD000465F3 /* WYPersonalCollectionViewController.m in Sources */,
+				C2B8628219488C5D00586AEE /* WYContent.m in Sources */,
 				C2333AF9194748E2000465F3 /* WYDiaNotCalls.m in Sources */,
+				C2B8627F19488C2F00586AEE /* WYAddContentViewController.m in Sources */,
 				C2333AC11947183D000465F3 /* WYAppDelegate.m in Sources */,
 				C2333A861946FB13000465F3 /* main.m in Sources */,
 				C2333AD319471A87000465F3 /* WYDialBoardViewController.m in Sources */,
@@ -514,6 +529,7 @@
 			children = (
 				C2333A831946FB13000465F3 /* en */,
 				C2333AD419472249000465F3 /* zh-Hans */,
+				C2B8627B1948817200586AEE /* zh-Hant */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -523,6 +539,7 @@
 			children = (
 				C2333A9C1946FB13000465F3 /* en */,
 				C2333AD519472249000465F3 /* zh-Hans */,
+				C2B8627C1948817200586AEE /* zh-Hant */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -534,7 +551,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -574,7 +590,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -635,7 +650,6 @@
 		C2333AA61946FB13000465F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Work.app/Work";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -658,7 +672,6 @@
 		C2333AA71946FB13000465F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Work.app/Work";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

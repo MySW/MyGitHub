@@ -46,7 +46,8 @@
         UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"%d.jpg", i]];
         
         self.button = [UIButton buttonWithType:UIButtonTypeCustom];
-        _button.frame = CGRectMake(70 + line * 60, 100 + 70 * row , 50, 65);
+        _button.frame = CGRectMake(70 + line * 50, 100 + 65 * row , 50, 65);
+        _button.tag = i;
         
         [_button setImage:image forState:UIControlStateNormal];
         
@@ -56,12 +57,13 @@
     
     self.textField = [[[UITextField alloc] initWithFrame:CGRectMake(40, 50, 240, 30)] autorelease];
     _textField.textAlignment = NSTextAlignmentCenter;
-    _textField.backgroundColor = [UIColor greenColor];
+//    _textField.backgroundColor = [UIColor greenColor];
     [self addSubview:_textField];
     
     self.callButton = [UIButton buttonWithType:UIButtonTypeSystem];
     _callButton.frame = CGRectMake(10, 390, 300, 30);
-    _callButton.backgroundColor = [UIColor cyanColor];
+//    _callButton.backgroundColor = [UIColor cyanColor];
+    [_callButton setImage:[UIImage imageNamed:@"320x49.png"] forState:UIControlStateNormal];
     [self addSubview:_callButton];
 }
 
